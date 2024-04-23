@@ -14,7 +14,7 @@ body{
     font-family: "Neue";
 }
 h1,h2{
-    font-family: "Neue";
+    font-family: "font/HelveticaNeueBold.ttf";
 }
 #container1{
     width: 100%;
@@ -428,6 +428,13 @@ h1,h2{
     height: 100%;
     text-align: center;
 }
+
+.pp6{
+    max-width: 45vh;
+    padding-left: 11vh;
+}
+
+
 .content6-1{
     width: 71vh;
     height: 20vh;
@@ -437,6 +444,7 @@ h1,h2{
     background-color: brown;
     z-index: 67;
     padding: 40vh 2vh;
+
 }
 .content6-1 p{
     color: white;
@@ -507,7 +515,7 @@ h1,h2{
 }
 .content7-1{
     padding: 70px;
-    max-width: 600px;
+    max-width: 800px;
     width: 96%;
     margin: 20px auto;
 }
@@ -525,7 +533,7 @@ h1,h2{
     border: 1px solid yellow;
 }
 .content7-2per{
-    width: 70%;
+    width: 72%;
     margin: 50px auto;
 }
 .content7-2per p{
@@ -538,7 +546,7 @@ h1,h2{
     padding: 70px 0 30px 0;
 }
 .content7-3per{
-    width: 70%;
+    width: 68%;
     margin: 30px auto;
 }
 .content7-3per p{
@@ -593,7 +601,7 @@ h1,h2{
 }
 .content8left{
     display: flex;
-    width: 40%;
+    width: 42%;
 }
 .content8p p{
     color: red;
@@ -607,7 +615,7 @@ h1,h2{
 .content8right{
     display: flex;
     padding-top: 260px;
-    width: 40%;
+    width: 42%;
 }
 
 
@@ -633,7 +641,7 @@ h1,h2{
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
 }
 .content9 h2{
     font-size: 100px;
@@ -662,7 +670,7 @@ h1,h2{
     padding-top: 20px;
 }
 .content9-3{
-    width: 50%;
+    width: 52%;
     margin: 0 auto;
     display: none;
     padding-top: 20px;
