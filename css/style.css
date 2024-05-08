@@ -1,6 +1,8 @@
 @font-face {
-    font-family: 'Neue';
-    src: url('../font/Neue.ttf') format('truetype');
+    font-family: "Roboto", sans-serif;
+    src: <link rel= "preconnect" href= "https://fonts.googleapis.com">
+    <link rel= "preconnect" href= "https://fonts.gstatic.com" crossorigin>
+    <link href= "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -11,10 +13,10 @@
     margin: 0;
 }
 body{
-    font-family: "Neue";
+    font-family: "Roboto";
 }
 h1,h2{
-    font-family: "font/HelveticaNeueBold.ttf";
+    font-family: "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet";
 }
 #container1{
     width: 100%;
@@ -279,7 +281,7 @@ h1,h2{
     font-size: 80px;
 }
 .content4text{
-    width: 70%;
+    width: 71%;
     margin: 20px auto;
 }
 .content4text p{
@@ -349,7 +351,7 @@ h1,h2{
 }
 .content5-1 div,.content5-2 div,.content5-3 div,.content5-4 div{
     color: white;
-    width: 25vw;
+    width: 24vw;
     height: 25vw;
     margin: 0 auto;
     font-size: 16px;
@@ -430,7 +432,7 @@ h1,h2{
 }
 
 .pp6{
-    max-width: 45vh;
+    max-width: 43vh;
     padding-left: 11vh;
 }
 
@@ -441,7 +443,7 @@ h1,h2{
     position: fixed;
     left: 100%;
     top: 0;
-    background-color: brown;
+    background-color: rgb(242, 119, 152);
     z-index: 67;
     padding: 40vh 2vh;
 
@@ -460,7 +462,7 @@ h1,h2{
     padding: 40vh 2vh;
 }
 .content6-2 p{
-    color: orange;
+    color:rgb(59, 61, 64);
 }
 .content6-3{
     width: 71vh;
@@ -468,7 +470,7 @@ h1,h2{
     position: fixed;
     left: 100%;
     top: 0;
-    background-color: brown;
+    background-color: rgb(30, 164,217);
     z-index: 69;
     padding: 40vh 2vh;
 }
@@ -586,8 +588,9 @@ h1,h2{
     
 }
 .content8{
-    width: 60%;
+    width: 40%;
     margin: 30px auto;
+    color: rgb(30, 164,217);
     text-align: center;
 }
 .content8 p{
@@ -609,7 +612,7 @@ h1,h2{
 .content8c p{
     font-size: 22px;
     font-weight: bold;
-    color: brown;
+    color: rgb(255, 0, 150);
     line-height: 30px;
 }
 .content8right{
@@ -689,7 +692,7 @@ h1,h2{
     position: absolute;
     left: 0;
     bottom: 0;
-    background-image: url(../images/bg10.jpg);
+    background-image: url(../images/bg13.png);
     background-size: cover;
 }
 .content10{
@@ -702,12 +705,12 @@ h1,h2{
 .content10 h2{
     line-height: 20vh;
     font-size: 100px;
-    color: white;
+    color: rgb(255, 0, 150);
 }
 .content10-1 p{
     font-size: 20px;
     font-weight: bold;
-    color: white;
+    color:rgb(255, 0, 150);
 }
 .content10-2{
     padding-top: 70vh;
@@ -715,7 +718,7 @@ h1,h2{
 .content10-2 p{
     font-size: 20px;
     font-weight: bold;
-    color: white;
+    color: rgb(255, 0, 150);
     line-height: 30px;
 }
 .content10-3{
@@ -724,6 +727,6 @@ h1,h2{
 .content10-3 p{
     font-size: 20px;
     font-weight: bold;
-    color: yellow;
+    color: rgb(255, 0, 150);
     line-height: 30px;
 }
